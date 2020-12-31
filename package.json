@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "bulma": "^0.9.1",
+    "cirrus-ui": "^0.6.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars-helpers": "^0.10.0",
+    "hbs": "^4.1.1",
+    "mongodb": "^3.6.3",
+    "morgan": "^1.10.0",
+    "postcss-import": "^14.0.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "name": "wp-node",
+  "version": "0.0.1",
+  "description": "WaifuPaste (YldMe) rewrite in Node.js",
+  "main": "index.js",
+  "repository": "AndroidKitKat/waifupaste-node",
+  "author": "Mike E <me@michaeleisemann.com>",
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "serve": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.2",
+    "postcss-cli": "^8.3.1"
+  }
+}
