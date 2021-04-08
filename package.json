@@ -1,14 +1,15 @@
 {
   "dependencies": {
     "autoprefixer": "^10.1.0",
-    "bulma": "^0.9.1",
     "cirrus-ui": "^0.6.0",
     "dotenv": "^8.2.0",
+    "env": "^0.0.2",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "handlebars-helpers": "^0.10.0",
     "hbs": "^4.1.1",
     "mongodb": "^3.6.3",
+    "mongoose": "^5.11.9",
     "morgan": "^1.10.0",
     "postcss-import": "^14.0.0",
     "tailwindcss": "^2.0.2"
